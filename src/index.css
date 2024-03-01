@@ -7,14 +7,40 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
   font-family: "Rubik";
 }
 
 body {
+  color: white;
   background-color: black;
 }
 
 .form-input {
   @apply text-slate-700 rounded-md p-3 m-2 outline-none bg-slate-200 placeholder:text-slate-500 resize-none;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+  flex: 0 0 100%;
+}
+
+.slide-button {
+  @apply text-3xl font-bold outline-none px-2 py-1 hover:text-slate-700 duration-300 z-10 border-none cursor-pointer absolute top-[50%] rounded-full w-[42px] h-[42px] bg-[#0000006d];
+  transform: translateY(-50%);
+}
+
+.left-slide-button {
+  @apply slide-button left-[10px];
+}
+
+.right-slide-button {
+  @apply slide-button right-[10px];
+}
+
+.tech-item {
+  @apply text-slate-600 border-2 rounded-md border-slate-700 px-2;
 }

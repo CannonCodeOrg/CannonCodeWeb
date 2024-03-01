@@ -16,7 +16,7 @@ body {
 }
 
 .form-input {
-  @apply text-slate-700 rounded-md p-3 m-2 outline-none bg-slate-200 placeholder:text-slate-500 resize-none;
+  @apply text-slate-700 border-2 border-slate-700 text-slate-300 rounded-md p-3 m-2 outline-none bg-transparent placeholder:text-slate-500 resize-none;
 }
 
 .slider-wrapper {

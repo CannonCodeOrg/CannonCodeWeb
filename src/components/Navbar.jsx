@@ -4,7 +4,7 @@ import CannonIcon from "../assets/images/cannon.svg";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col border-b-1 border-white fixed w-[100vw]">
+    <div className="flex flex-col border-b-1 border-white fixed w-[100vw] z-50">
       {/* CANNON ICON */}
       <div className="bg-black">
         <img src={CannonIcon} className="w-[50px] mx-auto py-2" />

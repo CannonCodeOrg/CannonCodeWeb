@@ -1,5 +1,3 @@
 Z oddali strzela kula i leci w kierunku kursora
 Dodanie footer'a
-Zmienienie Kolorystyki WhiteCard aby pasowała tematycznie
 Dokończenie NavBar
-Zmiana ///

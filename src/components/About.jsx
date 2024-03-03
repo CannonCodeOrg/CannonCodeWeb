@@ -5,7 +5,7 @@ import tytusimg from "../assets/images/tytus.jpg";
 import wojtekimg from "../assets/images/wojciech.jpg";
 import olgierdimg  from "../assets/images/olgierd.jpg";
 import linkedinlogo from "../assets/images/linkedinlogo.svg"
-import githublogo from"../assets/images/github.svg";
+import githublogo from "../assets/images/githubIcon.svg"
 
 
 const About = () => {
@@ -63,7 +63,7 @@ const About = () => {
             </div>
             <div className="flex flex-wrap justify-center space-y-3">
               {developers.map((developer, index) => (
-                <WhiteCard
+                <DevCard
                   key={index}
                   name={developer.name}
                   imageUrl={developer.imageUrl}
@@ -80,9 +80,9 @@ const About = () => {
 };
 
 
-const WhiteCard = ({ name, imageUrl, linkedinLink, githubLink}) => {
+const DevCard = ({ name, imageUrl, linkedinLink, githubLink}) => {
   return (
-    <div className="bg-white p-4 rounded-md shadow-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mx-2 my-2 text-black">
+    <div className="text-lg text-center shadow-md shadow-slate-700 hover:shadow-slate-500 w-fit mx-auto flex flex-col rounded-lg p-4 text-slate-500 duration-300">
       {/* Developer's profile image */}
       {imageUrl && (
         <img src={imageUrl} alt={`${name}'s profile`} className="rounded-full h-[40px] mb-2 mx-auto" />
@@ -95,13 +95,13 @@ const WhiteCard = ({ name, imageUrl, linkedinLink, githubLink}) => {
       <div className="flex items-center justify-center ">
       {linkedinlogo && (
         <a href={linkedinLink} target="_blank">
-          <img src={linkedinlogo} alt = "LinkedIn" className="h-[30px] mb-2 mr-2" />
+          <img src={linkedinlogo} alt = "LinkedIn" className="h-[30px] mb-2 mr-2 opacity-80 hover:opacity-100 cursor-pointer duration-300" />
         </a>
       )}
       {/*Github logo*/}
       {githublogo && (
           <a href={githubLink} target="_blank">
-            <img src={githublogo} alt="Github WhiteCard" className="h-[30px] mb-2" />
+            <img src={githublogo} alt="Github DevCard" className="h-[30px] mb-2 opacity-80 hover:opacity-100 cursor-pointer duration-300" />
           </a>
         )}
      </div>

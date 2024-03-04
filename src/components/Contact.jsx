@@ -9,8 +9,6 @@ const Contact = () => {
     const template_id = "template_28zxqsc"
     const public_api_key = process.env.REACT_APP_EMAILJS_PUBLIC_API_KEY
 
-    console.log(service_id, template_id, public_api_key, 'sending!')
-
     emailjs.sendForm(service_id, template_id, e.target, public_api_key)
       .then((result) => {
         console.log(result.text);

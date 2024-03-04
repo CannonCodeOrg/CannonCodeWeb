@@ -25,7 +25,7 @@ const About = () => {
     {
       name: "Ryszard Rakowicz",
       linkedInLink: "https://www.linkedin.com/in/ryszard-rakowicz-a403112b5/",
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/Ryszardoo",
       imageUrl: ryszardimg,
     },
     {
@@ -37,7 +37,7 @@ const About = () => {
     {
       name: "Tytus Sosiński",
       linkedInLink: "https://www.linkedin.com/in/tytus-sosi%C5%84ski-2bb019204/",
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/tytus-sosinski",
       imageUrl: tytusimg,
     },
   ];

@@ -24,7 +24,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="min-h-[80vh]">
+    <section className="min-h-[80vh]" id="projects">
       <div className="font-bold text-4xl py-[3em] text-center mt-[20vh]">Projects</div>
 
       <div className="w-full relative overflow-hidden">
@@ -45,7 +45,7 @@ const Projects = () => {
           {">"}
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

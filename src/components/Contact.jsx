@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col">
+    <section className="flex flex-col" id="contact">
       <div className="font-bold text-5xl mx-auto text-center px-[2em] pt-[3em]
       pb-[1.5em]">
         Let's get in touch
@@ -17,7 +17,7 @@ const Contact = () => {
         {/* TEXTAREA */}
         <textarea placeholder="Message" className="form-input h-[100px]" />
       </form>
-    </div>
+    </section>
   );
 };
 

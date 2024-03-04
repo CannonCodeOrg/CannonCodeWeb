@@ -2,13 +2,13 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="h-[100vh] flex justify-center items-center">
+    <section className="h-[100vh] flex justify-center items-center" id="home">
       <div className="text-4xl font-bold glow-text">
         <p>EXPLORE.</p>
         <p>CODE.</p>
         <p>INNOVATE.</p>
       </div>
-    </div>
+    </section>
   );
 };
 

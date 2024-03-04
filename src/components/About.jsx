@@ -43,7 +43,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen flex justify-center items-center mt-[20vh]">
+    <section className="min-h-screen flex justify-center items-center mt-[20vh]" id="about">
       <div className="text-4xl text-center">
         <div className="flex justify-center items-center font-bold">
           <p>Welcome to CannonCode!</p>
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

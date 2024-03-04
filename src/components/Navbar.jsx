@@ -1,6 +1,7 @@
 import React from "react";
 import NavLink from "./NavLink";
 import CannonIcon from "../assets/images/cannon.svg";
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
@@ -11,10 +12,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex bg-black p-3 text-lg justify-evenly">
-        <NavLink name="Home" />
-        <NavLink name="Projects" />
-        <NavLink name="Contact" />
-        <NavLink name="About" />
+        <NavLinks />
       </div>
     </div>
   );

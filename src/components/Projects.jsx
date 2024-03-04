@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const projects = [0, 1, 2, 3];
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(2);
 
   const slideRight = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
@@ -27,7 +27,7 @@ const Projects = () => {
     <section className="min-h-[80vh]" id="projects">
       <div className="font-bold text-4xl py-[3em] text-center mt-[20vh]">Projects</div>
 
-      <div className="w-full relative overflow-hidden">
+      <div className="w-full relative overflow-hidden max-w-[500px] mx-auto">
         <div className="slider-wrapper flex" style={getSliderStyle()}>
           {projects.map((project, index) => (
             // PROJECT CARD WRAPPER

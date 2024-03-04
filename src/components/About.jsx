@@ -4,7 +4,7 @@ import ryszardimg from "../assets/images/ryszard.jpg";
 import tytusimg from "../assets/images/tytus.jpg";
 import wojtekimg from "../assets/images/wojciech.jpg";
 import olgierdimg from "../assets/images/olgierd.jpg";
-import DevCard from "./DeveloperCard";
+import DeveloperCard from "./DeveloperCard";
 
 
 const About = () => {
@@ -46,11 +46,11 @@ const About = () => {
     <section className="min-h-screen flex justify-center items-center mt-[20vh]" id="about">
       <div className="text-4xl text-center">
         <div className="flex justify-center items-center font-bold">
-          <p>Welcome to CannonCode!</p>
+          <p className="px-4">Welcome to CannonCode!</p>
         </div>
 
         <div className="flex flex-col items-center" style={{ fontSize: '20px' }}>
-          <p className="p-[2em] text-justify-20px">
+          <p className="p-[2em] text-justify-20px max-w-[600px]">
             Here is where science meets innovation! In our dynamic community, we
             push boundaries through collaborative projects, shaping tomorrow's
             tech. Whether you're captivated by algorithms, design, or
@@ -62,9 +62,9 @@ const About = () => {
             <p>THE DEVS</p>
           </div>
 
-          <div className="flex flex-wrap justify-center  gap-8">
+          <div className="flex flex-wrap gap-4 p-[2em] max-w-[750px]">
             {developers.map((developer, index) => (
-              <DevCard
+              <DeveloperCard
                 key={index}
                 name={developer.name}
                 imageUrl={developer.imageUrl}

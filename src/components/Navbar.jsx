@@ -1,5 +1,4 @@
 import React from "react";
-import NavLink from "./NavLink";
 import CannonIcon from "../assets/images/cannon.svg";
 import NavLinks from "./NavLinks";
 

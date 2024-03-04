@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <div className="min-h-[80vh]">
-      <div className="font-bold text-4xl py-[3em] text-center">Projects</div>
+      <div className="font-bold text-4xl py-[3em] text-center mt-[20vh]">Projects</div>
 
       <div className="w-full relative overflow-hidden">
         <div className="slider-wrapper flex" style={getSliderStyle()}>

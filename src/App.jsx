@@ -9,9 +9,9 @@ function App() {
     <div className="w-full pb-[100px]">
       <Navbar />
       <Home />
+      <About />
       <Projects />
       <Contact />
-      <About />
     </div>
   );
 }

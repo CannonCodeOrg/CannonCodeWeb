@@ -1,2 +1,5 @@
 Z oddali strzela kula i leci w kierunku kursora
 Dodanie footer'a
+ANTYSPAM
+potwierdzenie wysłania wiadomości
+regex na email

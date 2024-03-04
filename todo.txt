@@ -1,3 +1,2 @@
 Z oddali strzela kula i leci w kierunku kursora
 Dodanie footer'a
-Dokończenie NavBar

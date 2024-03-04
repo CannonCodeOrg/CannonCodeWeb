@@ -50,7 +50,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col items-center" style={{ fontSize: '20px' }}>
-          <p className="p-[2em] text-justify">
+          <p className="p-[2em] text-justify-20px">
             Here is where science meets innovation! In our dynamic community, we
             push boundaries through collaborative projects, shaping tomorrow's
             tech. Whether you're captivated by algorithms, design, or

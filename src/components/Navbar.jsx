@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={CannonIcon} className="w-[50px] mx-auto py-2" />
       </div>
 
-      <div className="flex bg-black p-3 text-lg justify-evenly">
+      <div className="flex bg-black p-3 text-lg w-full">
         <NavLinks />
       </div>
     </div>

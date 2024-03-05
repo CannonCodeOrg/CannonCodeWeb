@@ -2,7 +2,43 @@ import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-  const projects = [0, 1, 2, 3];
+  const projects = [
+    {
+      id: 0,
+      title: "SMART SPOTLIGHT",
+      description:
+        "🎇 Integrative real-time person detection and spotlight direction.",
+      techs: [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Arduino",
+        "Robotics",
+        "Machine Learning",
+        "Computer Vision",
+      ],
+    },
+    {
+      id: 1,
+      title: "OUR PORTFOLIO",
+      description: "💼 Portfolio website of our organization.",
+      techs: ["JavaScript", "ReactJS", "Tailwind", "CSS"],
+    },
+    {
+      id: 2,
+      title: "DEPARTURES",
+      description:
+        "🚌 Application that shows the nearest arrival times of buses and trams from nearby stops.",
+      techs: ["JavaScript", "ReactJS", "Tailwind", "CSS"],
+    },
+    {
+      id: 3,
+      title: "ORGANIZATION MANAGEMENT",
+      description:
+        "🧱 Application that helps us to manage everything in our organization.",
+      techs: ["JavaScript", "ReactJS", "MongoDB", "Tailwind", "CSS"],
+    },
+  ];
   const [currentIndex, setCurrentIndex] = useState(2);
 
   const slideRight = () => {
@@ -25,14 +61,16 @@ const Projects = () => {
 
   return (
     <section className="min-h-[80vh]" id="projects">
-      <div className="font-bold text-4xl py-[3em] text-center mt-[20vh]">Projects</div>
+      <div className="font-bold text-4xl py-[3em] text-center mt-[20vh]">
+        Projects
+      </div>
 
       <div className="w-full relative overflow-hidden max-w-[500px] mx-auto">
         <div className="slider-wrapper flex" style={getSliderStyle()}>
-          {projects.map((project, index) => (
+          {projects.map((projectData, index) => (
             // PROJECT CARD WRAPPER
             <div key={index} className="slider-item p-4">
-              <ProjectCard />
+              <ProjectCard data={projectData} />
             </div>
           ))}
         </div>

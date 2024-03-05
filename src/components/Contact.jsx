@@ -30,7 +30,7 @@ const Contact = () => {
         <input placeholder="Email" className="form-input" name="user_email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required />
         <textarea placeholder="Message" className="form-input h-[100px]" name="message" required />
 
-        <button className='mx-auto hover:bg-slate-800 hover:text-slate-700 px-5 py-2 rounded-md duration-300 bg-slate-900 text-slate-600 cursor-pointer'>Send</button>
+        <button className='mx-auto hover:bg-slate-800 hover:text-slate-700 px-5 py-2 rounded-md duration-300 bg-slate-900 text-slate-500 cursor-pointer'>Send</button>
       </form>
     </section>
   );

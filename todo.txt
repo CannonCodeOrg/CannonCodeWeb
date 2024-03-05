@@ -1,5 +1,5 @@
 Z oddali strzela kula i leci w kierunku kursora
 Dodanie footer'a
 ANTYSPAM
-potwierdzenie wysłania wiadomości
-regex na email
+potwierdzenie wysłania wiadomości 1/2 - mam tu na myśli, że znika już ten form
+ale może jakieś fajerwerki do tego dodać jak się wyśle nwm

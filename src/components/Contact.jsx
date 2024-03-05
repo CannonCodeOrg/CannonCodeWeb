@@ -12,6 +12,7 @@ const Contact = () => {
     emailjs.sendForm(service_id, template_id, e.target, public_api_key)
       .then((result) => {
         console.log(result.text);
+        e.target.reset();
       }, (error) => {
         console.log(error.text);
       });

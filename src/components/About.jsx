@@ -4,6 +4,8 @@ import ryszardimg from "../assets/images/ryszard.jpg";
 import tytusimg from "../assets/images/tytus.jpg";
 import wojtekimg from "../assets/images/wojciech.jpg";
 import olgierdimg from "../assets/images/olgierd.jpg";
+import pawelimg from "../assets/images/pawel.jpg";
+import oskarimg from "../assets/images/oskar.jpg";
 import DeveloperCard from "./DeveloperCard";
 
 
@@ -39,6 +41,18 @@ const About = () => {
       linkedInLink: "https://www.linkedin.com/in/tytus-sosi%C5%84ski-2bb019204/",
       githubLink: "https://github.com/tytus-sosinski",
       imageUrl: tytusimg,
+    },
+    {
+      name: "Paweł Beiger",
+      linkedInLink: "https://www.linkedin.com/in/pawelbeiger/",
+      githubLink: "https://github.com/P4steo",
+      imageUrl: pawelimg,
+    },
+    {
+      name: "Oskar Dulik",
+      linkedInLink: "https://www.linkedin.com/in/",
+      githubLink: "https://github.com/Oskar474",
+      imageUrl: oskarimg,
     },
   ];
 

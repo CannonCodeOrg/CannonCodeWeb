@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <section className="flex flex-col" id="contact">
-      <div className="font-bold text-5xl mx-auto text-center px-[2em] pt-[3em] pb-[1.5em]">
+      <div className="font-bold text-4xl mx-auto text-center px-[2em] pt-[6em] pb-[1.5em]">
         Let's get in touch
       </div>
 

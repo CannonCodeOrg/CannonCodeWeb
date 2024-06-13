@@ -15,7 +15,7 @@ const Collaborations = () => {
           <span className="font-bold"> Botland</span>.
         </p>
         <a
-          href="https://botland.com"
+          href="https://botland.com.pl/?cd=1654592848&ad=67274996601&kd=botland&gad_source=1&gclid=Cj0KCQjwsaqzBhDdARIsAK2gqnf58jl7_Kt8QUbL6fkYz7DsG5ldUWXIfgNMYUqWt3YbaNwnZWjyI_0aAsnjEALw_wcB"
           target="_blank"
           className="flex items-center flex-col"
         >
